@@ -3,7 +3,7 @@
 <node TEXT="Bayesian Approaches in Statistics and Machine Learning" FOLDED="false" ID="ID_1051276732" CREATED="1542518909127" MODIFIED="1542520526699" STYLE="oval">
 <font SIZE="18"/>
 <hook NAME="MapStyle" zoom="0.826">
-    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false" show_icon_for_attributes="true" show_note_icons="true"/>
+    <properties show_icon_for_attributes="true" fit_to_viewport="false" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -66,14 +66,14 @@
 <hook NAME="AutomaticEdgeColor" COUNTER="5" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="Specific Models Useful to Know (clone examples here)" POSITION="right" ID="ID_1501789217" CREATED="1542518980638" MODIFIED="1542520508545" HGAP_QUANTITY="46.24999903887513 pt" VSHIFT_QUANTITY="-71.99999785423286 pt">
 <edge COLOR="#ff0000"/>
-<node TEXT="Bayesian PCA" FOLDED="true" ID="ID_1122955494" CREATED="1542519002061" MODIFIED="1542519650476" HGAP_QUANTITY="24.499999687075622 pt" VSHIFT_QUANTITY="-15.749999530613437 pt">
+<node TEXT="Bayesian PCA" ID="ID_1122955494" CREATED="1542519002061" MODIFIED="1542519650476" HGAP_QUANTITY="24.499999687075622 pt" VSHIFT_QUANTITY="-15.749999530613437 pt">
 <node TEXT="See Vetrov&apos;s Lecture" ID="ID_1476480160" CREATED="1542519016286" MODIFIED="1542519022652"/>
 </node>
 <node TEXT="Normal - Normal Model" ID="ID_927269818" CREATED="1542519027168" MODIFIED="1542519213110" HGAP_QUANTITY="24.499999687075622 pt" VSHIFT_QUANTITY="-17.999999463558215 pt"/>
 <node TEXT="Hierarchical Model With A normal Prior" ID="ID_578683073" CREATED="1542519097025" MODIFIED="1542519655556" HGAP_QUANTITY="24.499999687075626 pt" VSHIFT_QUANTITY="11.999999642372144 pt"/>
 <node TEXT="Inference in t-Student distribution&#xa;using gibbs sampling" ID="ID_158220743" CREATED="1542519745619" MODIFIED="1542520478887" HGAP_QUANTITY="26.7499996200204 pt" VSHIFT_QUANTITY="22.499999329447768 pt"/>
 </node>
-<node TEXT="Selecting Priors" FOLDED="true" POSITION="left" ID="ID_76744569" CREATED="1542519120544" MODIFIED="1542520521255" HGAP_QUANTITY="149.74999595433485 pt" VSHIFT_QUANTITY="25.4999992400408 pt">
+<node TEXT="Selecting Priors" POSITION="left" ID="ID_76744569" CREATED="1542519120544" MODIFIED="1542520521255" HGAP_QUANTITY="149.74999595433485 pt" VSHIFT_QUANTITY="25.4999992400408 pt">
 <edge COLOR="#0000ff"/>
 <richcontent TYPE="NOTE">
 
@@ -87,7 +87,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="Informative Priors" ID="ID_1652020750" CREATED="1542519131568" MODIFIED="1542519135644"/>
 <node TEXT="Noninformative Priors" ID="ID_1325926973" CREATED="1542519139713" MODIFIED="1542519145636">
